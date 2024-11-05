@@ -1,0 +1,165 @@
+body {
+    font-family: "Hanken Grotesk Regular", sans-serif !important;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.row{
+    background-color: #3773af;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 12px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+header img {
+    max-width: 311px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+main {
+    padding: 20px;
+    width: 470px; 
+}
+
+.login-section {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input[type="email"], input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    padding: 15px;
+    background-color: #3773af;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0e3357;
+}
+
+.links{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.forgot-password {
+    display: inline-block;
+    color: #3773af;
+    text-decoration: none;
+    cursor: pointer;
+    max-width: 50%;
+    font-size: 14px;
+}
+
+.forgot-password:hover {
+    color: #0e3357;
+}
+
+.pogoji {
+    display: inline-block;
+    color: #3773af;
+    text-decoration: none;
+    cursor: pointer;
+    max-width: 50%;
+    font-size: 14px;
+}
+
+.pogoji:hover {
+    color: #0e3357;
+}
+
+#remember {
+    margin: 5px;
+}
+
+.register {
+    display: block;
+    margin: 20px;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+.register a {
+    text-decoration: none;
+    color: #3773af;
+}
+
+.register a:hover {
+    color:#0e3357
+}
+
+footer {
+    text-align: center;
+    font-weight: normal;
+    font-size: 12px;
+    color: #000000;
+    position: absolute;
+    bottom: 10px;
+}
+
+footer p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.links-2 {
+    width: 100%;
+    margin-top: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+footer a {
+    text-decoration: none;
+    color: #3773af;
+}
+
+footer a:hover {
+    color: #0e3357
+}
+
+.dh {
+    max-width: 150px;
+}
